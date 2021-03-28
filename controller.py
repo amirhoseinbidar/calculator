@@ -6,7 +6,7 @@ from math import pi
 def multiple_normalze(li):
     #   add '*' token if there is no operation
     #   between a list and it's before object
-    #   example: 2(2+5) - > 2*(2+5)
+    #   example: 2(2+5) -> 2*(2+5)
     if not li:
         return li
 
